@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80" width="200" height="80">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;800&amp;display=swap');
+    </style>
+  </defs>
+  <!-- Background rounded rectangle -->
+  <rect x="0" y="0" width="200" height="80" rx="8" fill="#1a1a2e"/>
+  
+  <!-- S letter -->
+  <text x="30" y="52" font-family="Poppins, Arial, sans-serif" font-weight="800" font-size="42" fill="#E8C840">S</text>
+  
+  <!-- M letter with pencil accent -->
+  <text x="58" y="52" font-family="Poppins, Arial, sans-serif" font-weight="800" font-size="42" fill="white">M</text>
+  
+  <!-- Pencil icon on top of M -->
+  <g transform="translate(78, 8) rotate(10)">
+    <rect x="0" y="0" width="4" height="16" fill="#E8C840" rx="1"/>
+    <polygon points="0,16 4,16 2,20" fill="#333"/>
+  </g>
+  
+  <!-- TUTORING text -->
+  <text x="110" y="38" font-family="Poppins, Arial, sans-serif" font-weight="700" font-size="10" fill="white" letter-spacing="2">TUTORING</text>
+  
+  <!-- Divider line -->
+  <line x1="110" y1="44" x2="190" y2="44" stroke="#E8C840" stroke-width="1.5"/>
+  
+  <!-- 11+ & GCSE EXPERTS -->
+  <text x="110" y="57" font-family="Poppins, Arial, sans-serif" font-weight="700" font-size="9" fill="white" letter-spacing="1">11+ &amp; GCSE</text>
+  <text x="110" y="69" font-family="Poppins, Arial, sans-serif" font-weight="700" font-size="9" fill="#E8C840" letter-spacing="1">EXPERTS</text>
+</svg>

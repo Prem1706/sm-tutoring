@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | SM Tutoring</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=2">
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo-link"><img src="logo.svg" alt="SM Tutoring Logo"
+                    class="nav__logo"></a>
+            <ul class="nav__menu" id="navMenu">
+                <li><a href="about.html" class="nav__link">About</a></li>
+                <li><a href="services.html" class="nav__link" style="color:var(--purple);font-weight:700;">Services</a>
+                </li>
+                <li><a href="why-us.html" class="nav__link">Why Us</a></li>
+                <li><a href="contact.html" class="nav__link nav__link--cta">Get in Touch</a></li>
+            </ul>
+            <button class="nav__toggle" id="navToggle"
+                aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+        </nav>
+    </header>
+
+    <div class="page-header" style="padding-top: 140px; padding-bottom: 80px;">
+        <h1 class="page-header__title">Our Services</h1>
+        <p class="section-header__subtitle" style="color:rgba(255,255,255,0.8);">What We Offer</p>
+        <div class="page-header__wave"><svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path d="M0,60 C360,120 720,0 1440,60 L1440,120 L0,120 Z" fill="white" />
+            </svg></div>
+    </div>
+
+    <section class="services content-section" style="position: relative; overflow: hidden; background: var(--yellow);">
+        <div class="shape-organic-yellow shape-bottom-right"
+            style="background: var(--yellow-light); transform: scale(1.5);"></div>
+        <div class="container" style="position:relative; z-index:2;">
+            <div class="content-grid" style="grid-template-columns: 1fr 1.2fr;">
+                <div>
+                    <img src="images/services.png" alt="Study Materials" class="content-image" data-animate>
+                </div>
+                <div>
+                    <h2 class="section-header__title" style="text-align:left; margin-bottom: 20px; color: var(--dark);">
+                        Structured Support
+                        for 11+ and GCSEs</h2>
+                    <p style="margin-bottom: 20px; font-size: 1.05rem; color: var(--gray-800);">Helping children
+                        understand maths and English properly so they feel confident again. Whether it's the pressure of
+                        the 11+ or the stress of GCSEs, we provide the experienced, local support your family needs.</p>
+                </div>
+            </div>
+
+            <div class="services__grid" style="margin-top: 60px;">
+                <div class="services__card" data-animate>
+                    <div class="services__card-badge">Most Popular</div>
+                    <h3 class="services__card-title">11+ Preparation Program</h3>
+                    <p class="services__card-desc">Starting early is the key to removing exam anxiety. We give your
+                        child the time they need to naturally build confidence and master essential skills without
+                        feeling pressured or rushed.</p>
+                    <ul class="services__card-list">
+                        <li>Embed solid skills in Maths & English Comprehension</li>
+                        <li>Master Non-verbal techniques smoothly</li>
+                        <li>Grow a richer vocabulary & comprehension strategies</li>
+                    </ul>
+                </div>
+                <div class="services__card" data-animate>
+                    <h3 class="services__card-title">GCSE Support</h3>
+                    <p class="services__card-desc">Targeted tuition designed to bridge knowledge gaps, solidify
+                        understanding of core subjects, and refine exam technique for maximum marks.</p>
+                    <ul class="services__card-list" style="border-color:var(--gray-200);">
+                        <li>Curriculum-aligned revision strategies</li>
+                        <li>Focus on past paper practice and exam skills</li>
+                        <li>Build confidence leading up to the final exams</li>
+                    </ul>
+                </div>
+                <div class="services__card" data-animate>
+                    <h3 class="services__card-title">General Tutoring</h3>
+                    <p class="services__card-desc">For students who need a confidence boost or support catching up in
+                        Maths and English. We focus on building foundational skills that translate into classroom
+                        success.</p>
+                    <ul class="services__card-list" style="border-color:var(--gray-200);">
+                        <li>Personalized learning plans tailored to the student</li>
+                        <li>Strengthen core Maths and English literacy</li>
+                        <li>Restore a love for learning without the pressure</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div
+            style="margin-top: 60px; text-align: center; background: rgba(255,255,255,0.7); padding: 40px; border-radius: 20px;">
+            <h3 style="color: var(--dark); margin-bottom: 20px; font-size: 1.8rem;">Ready to take the next step?</h3>
+            <p style="color: var(--gray-800); margin-bottom: 30px; font-size: 1.1rem;">Whether you need 11+ preparation
+                or general support, let's discuss how we can help your child succeed.</p>
+            <a href="contact.html" class="btn btn--primary" style="font-size: 1.1rem; padding: 15px 40px;">Book a Free
+                Assessment</a>
+        </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand"><img src="logo.svg" alt="SM Tutoring" class="footer__logo">
+                    <p class="footer__tagline">Turning 'I can't' into 'I just did.'</p>
+                </div>
+                <div class="footer__links">
+                    <h4>Quick Links</h4><a href="about.html">About</a><a href="services.html">Services</a><a
+                        href="why-us.html">Why Us</a><a href="contact.html">Contact</a>
+                </div>
+                <div class="footer__info">
+                    <h4>Location</h4>
+                    <p>Sale, M33<br>South Manchester</p>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2026 South Manchester Tutoring. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
