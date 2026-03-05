@@ -1,0 +1,64 @@
+/* === Why Us Section === */
+.why-us {
+    padding: 120px 0;
+    background: var(--white);
+    position: relative;
+    overflow: hidden;
+}
+
+.why-us__list {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    position: relative;
+    z-index: 2;
+}
+
+.why-us__item {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 32px 40px;
+    border-radius: var(--radius-lg);
+    background: var(--white);
+    border: none;
+    box-shadow: var(--shadow-sm);
+    transition: all var(--transition);
+}
+
+.why-us__item:hover {
+    transform: translateX(12px) scale(1.02);
+    box-shadow: var(--shadow-md);
+}
+
+.why-us__item-number {
+    font-size: 2.2rem;
+    font-weight: 900;
+    color: var(--yellow);
+    flex-shrink: 0;
+    line-height: 1;
+    padding-top: 4px;
+    text-shadow: 2px 2px 0 rgba(232, 200, 64, 0.2);
+}
+
+.why-us__item-body h3 {
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: var(--dark);
+    margin-bottom: 8px;
+}
+
+.why-us__item-body p {
+    font-size: 1rem;
+    color: var(--gray-600);
+}
+
+/* === Responsive === */
+@media (max-width: 768px) {
+    .why-us__item {
+        flex-direction: column;
+        padding: 24px;
+    }
+}

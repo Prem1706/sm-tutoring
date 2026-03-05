@@ -8,7 +8,9 @@
     <meta name="description" content="South Manchester Tutoring - Private 11+ and GCSE tutor with 12 years experience.">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="styles.css?v=2">
+    <!-- Link to new global and specific CSS -->
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
@@ -53,18 +55,11 @@
             </div>
             <div class="hero__visual hero__image-wrapper">
                 <img src="images/home_hero.png" alt="Happy student studying" class="hero__image-blob">
-                <div class="hero__badge"
-                    style="position: absolute; bottom: -20px; right: -20px; width: 260px; height: auto; padding: 25px; border-radius: 20px; z-index: 10; font-family: var(--font); animation: float 4s ease-in-out infinite;">
-                    <span
-                        style="display:block; font-size: 1.05rem; font-weight: 800; line-height: 1.3; margin-bottom: 5px; text-transform: uppercase;">Recruiting
-                        for September 2026.</span>
-                    <span
-                        style="display:block; font-size: 0.95rem; font-weight: 700; line-height: 1.3; margin-bottom: 12px; text-transform: uppercase;">Spaces
-                        left for Year 4!!</span>
-                    <a href="contact.html"
-                        style="display:inline-block; font-size: 0.8rem; font-weight: 700; line-height: 1.3; color: var(--white); background: var(--purple-dark); padding: 8px 16px; border-radius: 50px; text-transform: uppercase; text-decoration: none; transition: background 0.3s;"
-                        onmouseover="this.style.background='var(--dark)'"
-                        onmouseout="this.style.background='var(--purple-dark)'">Contact for a free assessment!</a>
+                <div class="hero__badge" style="position: absolute; bottom: -20px; right: -20px; z-index: 10;">
+                    <span class="hero__badge-number">12+</span>
+                    <span class="hero__badge-text"
+                        style="text-transform: uppercase; margin-top: 5px; font-weight: 800; font-size: 0.95rem;">Years
+                        of<br>Experience</span>
                 </div>
             </div>
         </div>
@@ -75,38 +70,100 @@
         </div>
     </section>
 
-    <!-- Start Early Section -->
-    <section class="content-section" style="position: relative; overflow: hidden; background: var(--purple);">
-        <div class="shape-organic-yellow shape-top-left"></div>
-        <div class="container" style="position:relative; z-index:2;">
-            <div class="content-grid" style="grid-template-columns: 1fr 1.1fr; gap: 80px;">
-                <div>
-                    <img src="images/why_us.png" alt="Child studying" class="content-image" data-animate>
-                </div>
-                <div>
-                    <span class="section-header__label"
-                        style="background: rgba(255,255,255,0.2); color: var(--yellow);">Starting Early</span>
-                    <h2 class="section-header__title"
-                        style="text-align:left; margin-bottom: 20px; color: var(--white);">Why start the 11+ journey
-                        now?</h2>
+    <!-- The Journey Section -->
+    <section class="journey-section"
+        style="background: var(--purple); position: relative; padding: 120px 0; overflow: hidden;">
+        <div class="shape-organic-yellow shape-top-left" style="opacity: 0.3; transform: scale(0.8);"></div>
 
-                    <p style="font-size: 1.1rem; line-height: 1.7; color: var(--white); margin-bottom: 16px;">
-                        The intense demand for grammar school places across Trafford means your child needs every
-                        advantage they can get. Waiting until Year 5 often leads to a stressful, high-pressure cramming
-                        phase that can damage a child's love for learning.
-                    </p>
-                    <p style="font-size: 1.1rem; line-height: 1.7; color: var(--white); margin-bottom: 16px;">
-                        By starting early, we have the time to gently build and embed solid skills in Maths, English
-                        Comprehension, and Non-Verbal techniques. We grow a richer vocabulary and refine core arithmetic
-                        without the pressure cooker environment.
-                    </p>
-                    <p style="font-size: 1.1rem; line-height: 1.7; color: var(--white); font-weight: 600;">
-                        More time means more practice, deeper confidence, and significantly lower stress for both you
-                        and your child.
-                    </p>
+        <div class="container" style="position:relative; z-index:2;">
+            <div class="section-header">
+                <span class="section-header__label" style="background: rgba(255,255,255,0.2); color: var(--yellow);">The
+                    South Manchester Method</span>
+                <h2 class="section-header__title" style="color: var(--white);">A Mastered Journey to Success</h2>
+                <p class="section-header__subtitle" style="margin-top: 15px; color: rgba(255,255,255,0.9);">We don't
+                    just teach the curriculum; we build a strategic, stress-free roadmap that turns raw potential into
+                    outstanding grammar school offers.</p>
+            </div>
+
+            <div class="journey-grid"
+                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 40px; margin-top: 60px;">
+
+                <!-- Step 1 -->
+                <div class="journey-card"
+                    style="position: relative; padding: 40px 30px; background: var(--purple-dark); border-radius: var(--radius-lg); transition: all var(--transition); border: 1px solid rgba(255,255,255,0.1);">
+                    <div
+                        style="font-size: 3rem; font-weight: 900; color: var(--white); opacity: 0.1; position: absolute; top: 10px; right: 20px;">
+                        01</div>
+                    <div
+                        style="width: 50px; height: 50px; background: var(--yellow); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-bottom: 24px;">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--dark)"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+                        </svg>
+                    </div>
+                    <h3 style="font-size: 1.3rem; font-weight: 800; color: var(--white); margin-bottom: 12px;">
+                        Foundation & Assessment</h3>
+                    <p style="font-size: 0.95rem; color: rgba(255,255,255,0.8); line-height: 1.6;">We begin with a
+                        comprehensive free assessment to map your child's exact strengths and knowledge gaps, building a
+                        custom starting line.</p>
                 </div>
+
+                <!-- Step 2 -->
+                <div class="journey-card"
+                    style="position: relative; padding: 40px 30px; background: var(--purple-dark); border-radius: var(--radius-lg); transition: all var(--transition); border: 1px solid rgba(255,255,255,0.1); position: relative; top: 30px;">
+                    <div
+                        style="font-size: 3rem; font-weight: 900; color: var(--white); opacity: 0.1; position: absolute; top: 10px; right: 20px;">
+                        02</div>
+                    <div
+                        style="width: 50px; height: 50px; background: var(--yellow); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-bottom: 24px;">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--dark)"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+                            </path>
+                            <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                            <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                        </svg>
+                    </div>
+                    <h3 style="font-size: 1.3rem; font-weight: 800; color: var(--white); margin-bottom: 12px;">Skill
+                        Acceleration</h3>
+                    <p style="font-size: 0.95rem; color: rgba(255,255,255,0.8); line-height: 1.6;">Through engaging,
+                        focused sessions, we gently introduce advanced 11+ and GCSE concepts, nurturing confidence
+                        without the pressure.</p>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="journey-card"
+                    style="position: relative; padding: 40px 30px; background: var(--purple-dark); border-radius: var(--radius-lg); transition: all var(--transition); border: 1px solid rgba(255,255,255,0.1);">
+                    <div
+                        style="font-size: 3rem; font-weight: 900; color: var(--white); opacity: 0.1; position: absolute; top: 10px; right: 20px;">
+                        03</div>
+                    <div
+                        style="width: 50px; height: 50px; background: var(--yellow); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-bottom: 24px;">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--dark)"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polygon
+                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                            </polygon>
+                        </svg>
+                    </div>
+                    <h3 style="font-size: 1.3rem; font-weight: 800; color: var(--white); margin-bottom: 12px;">Exam
+                        Mastery</h3>
+                    <p style="font-size: 0.95rem; color: rgba(255,255,255,0.8); line-height: 1.6;">We transition into
+                        aggressive exam technique refinement, strict time management, and exclusive mock tests to
+                        guarantee peak performance.</p>
+                </div>
+
             </div>
         </div>
+        <style>
+            .journey-card:hover {
+                transform: translateY(-10px);
+                background: #4D3772 !important;
+                box-shadow: var(--shadow-lg);
+                border-color: rgba(255, 255, 255, 0.2) !important;
+            }
+        </style>
     </section>
 
     <!-- Experts Section -->
@@ -201,7 +258,10 @@
             </div>
         </div>
     </footer>
-    <script src="script.js"></script>
+
+    <!-- Link to new global and specific JS -->
+    <script src="global.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>
